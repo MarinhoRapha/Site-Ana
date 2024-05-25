@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,body{
+	height: 100%;
+	  font-family: "Poetsen One", sans-serif;
+	  font-weight: 400;
+	  font-style: normal;
+}
+
+
+
+section{
+	height: 100vh;
+	width: 100vw;
+}
+.background{
+	padding: 2% 2%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	background-image: url('../images/wallpaper5.jpg');
+	background-size: cover;
+	background-position: auto;
+	background-repeat: no-repeat;
+}
+
+.linktree{
+	margin-top: 50px;
+	display: flex;
+	width: 500px;
+	height: 850px;
+	flex-direction: column;
+	align-items: center;
+
+}
+.img{
+	margin-top: 25px;
+	width: 85px;
+	height: 85px;;
+	background-position: 30% 100%;
+	background-image: url('../images/ana.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+
+}
+
+.linktree h2{
+	font-weight: normal;
+	color: white;
+	margin-top: 20px;
+}
+
+.linktree p{
+	color: white;
+	margin-top: 20px;
+}
+
+
+.cards{
+	margin-top: 30px;
+	border: 1px solid white;
+	width: 100%;
+	max-width: 380px;
+	height: 45px;
+	border-radius: 10px;
+	text-align:center;
+	line-height: 40px;
+	-webkit-box-shadow: 2px 3px 1px 0px black;
+	-moz-box-shadow: 2px 3px 1px 0px black;
+	box-shadow: 1.5px 3px 2px 1px black;
+	cursor: pointer;
+}
+.cards:hover{
+	transition: 0.5s;
+	width: 100%;
+	max-width: 400px;
+	height: 50px;
+	line-height: 50px;
+	background-color: white;
+	-webkit-box-shadow: 2px 4px 1px 0px 0px darkgrey;;
+	-moz-box-shadow: 2px 4px 1px 0px darkgrey;;
+	box-shadow: 2px 3px 2px 1px darkgrey;
+}
+
+div.cards:hover a {
+	color: black;
+	transition: 0.5s;
+   font-size: 18px;
+}
+
+div.cards a{
+	font-size: 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white
+}
+
+.icons{
+	margin-top: 55px;
+}
+.icons i{
+	padding: 8px;
+	cursor: pointer;
+}
+
+h2.marinho{
+	margin-top: 180px;
+}
+
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-tiktok:hover{
+	color: black;
+	font-size: 35px;
+	transition: 0.5s;
+}
+
+
+
+.fa-facebook,.fa-instagram,.fa-twitter,.fa-tiktok{
+	color: white;
+}
+
+@media screen and (max-width: 870px){
+	.background{
+	background-image: url('../images/wallpaper5.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+  }
+}
