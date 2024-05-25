@@ -43,5 +43,28 @@
 		</div><!--linktree-->
 	</section><!--background-->
 
+	<script type="text/javascript">
+
+		function redirecionar(Link) {
+		    window.location.href = Link;
+		}
+		
+		var listaItens = document.querySelectorAll('div.cards');
+		
+		listaItens.forEach(function(item) {
+		    item.addEventListener('click', function(event) {
+		        event.preventDefault();
+		
+		        var link = this.querySelector('a').getAttribute('href');
+		
+		       
+		        if(link) {
+		            redirecionar(link);
+		        }
+		    });
+		});
+
+	</script>
+
 </body>
 </html>
