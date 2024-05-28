@@ -14,8 +14,8 @@ html,body{
 
 
 section{
-	height: 100vh;
-	width: 100vw;
+	height: 100%;
+	width: 100%;
 }
 .background{
 	padding: 2% 2%;
@@ -29,16 +29,17 @@ section{
 }
 
 .linktree{
-	margin-top: 50px;
+	padding-top: 50px;
 	display: flex;
 	width: 500px;
-	height: 850px;
+	height: 100%;
+	max-height: 850px;
 	flex-direction: column;
 	align-items: center;
 
 }
+
 .img{
-	margin-top: 25px;
 	width: 85px;
 	height: 85px;;
 	background-position: 30% 100%;
@@ -101,7 +102,7 @@ div.cards a{
 }
 
 .icons{
-	margin-top: 55px;
+	margin-top: 30px;
 }
 .icons i{
 	padding: 8px;
@@ -124,12 +125,51 @@ h2.marinho{
 	color: white;
 }
 
-@media screen and (max-width: 870px){
+@media screen and (max-width: 1200px){
+
+	.linktree{
+	padding-top: 0;
+	margin-top: 0;
+	display: flex;
+	width: 500px;
+	max-height: 850px;
+	height: 100%;
+	flex-direction: column;
+	align-items: center;
+
+}
 	.background{
 	background-image: url('wallpaper5.jpg');
 	background-size: cover;
+	background-position: 100% 100%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 
   }
+  .icons{
+  	padding-top: 0;
+  }
+
+  .img{
+  	margin-bottom: 10px;
+  	margin-top: 0;
+  }
+
+  .linktree h2 {
+  	margin-top: 0;
+  	margin-bottom: 10px;
+  }
+
+    .linktree p {
+  	margin-bottom: 15px;
+  	margin-top: 0;
+  }
+
+  .cards{
+  	margin-bottom: 25px;
+  	margin-top: 0;
+
+  }
+
+
 }
