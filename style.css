@@ -22,7 +22,7 @@ section{
 	justify-content: center;
 	align-items: center;
 	display: flex;
-	background-image: url('images/wallpaper5.jpg');
+	background-image: url('wallpaper5.jpg');
 	background-size: cover;
 	background-position: 50%;
 	background-repeat: no-repeat;
@@ -42,7 +42,7 @@ section{
 	width: 85px;
 	height: 85px;;
 	background-position: 30% 100%;
-	background-image: url('images/ana.jpeg');
+	background-image: url('ana.jpeg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	border-radius: 50%;
@@ -126,7 +126,7 @@ h2.marinho{
 
 @media screen and (max-width: 870px){
 	.background{
-	background-image: url('../images/wallpaper5.jpg');
+	background-image: url('wallpaper5.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
